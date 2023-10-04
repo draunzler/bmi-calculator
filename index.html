@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/round-slider@1.4.0/dist/roundslider.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="slider-container">
+        <label for="height-input" style="color: #fff;">Enter height in (cm):</label>
+        <input type="text" id="height-input" />
+        <div id="slider"></div>
+        <div id="bmi-container">
+            <p>Weight (kg):</p>
+            <p id="bmi"><br>BMI: <span id="bmiValue" class="normal-weight">0</span></p>
+            <p id="bmiCategory" class="normal-weight"></p>
+        </div>
+    </div>
+    <div class="desc">
+        <p>To be noted:</p>
+        <ul>
+            <li>A BMI of <b>18.5 or below</b> indicates that you are <span style="color: #42aaf5;">Underweight</span></li>
+            <li>A BMI of <b>18.5 - 24.9</b> indicates that you are <span style="color: #47db22;">Normal weight</span></li>
+            <li>A BMI of <b>25 - 29.9</b> indicates that you are <span style="color: #f5b342;">Overweight</span></li>
+            <li>A BMI of <b>30 or above</b> indicates that you are <span style="color: #ff1c1c;">Obese</span></li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/round-slider@1.4.0/dist/roundslider.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

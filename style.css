@@ -1,0 +1,62 @@
+body {
+  background-color: #212121;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the handle */
+.rs-handle {
+  background-color: #fff; /* Handle color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the container div */
+#slider-container {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Style for the input box */
+#height-input {
+  color: #fff;
+  margin: 20px 0;
+  width: 100px;
+}
+
+/* Style for the BMI value */
+#bmi-container {
+  z-index: 10;
+  position: absolute;
+  top: 170px;
+  left: 37%;
+  transform: translate(-50%, -50%);
+}
+
+#bmi-container p{
+  font-size: 15px;
+  margin: 0px;
+}
+.desc{
+  color: #fff;
+  font-weight: 300;
+  margin: 20px;
+}
+
+/* Custom colors for BMI categories */
+.underweight {
+  color: #42aaf5;
+}
+
+.normal-weight {
+  color: #47db22;
+}
+
+.overweight {
+  color: #f5b342;
+}
+
+.obese {
+  color: #ff1c1c;
+}
